@@ -12,3 +12,8 @@ img {
     margin-bottom: 8px;
 }
 
+
+footer {
+    position: static;
+    
+}
