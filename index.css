@@ -1,0 +1,23 @@
+.rest-img{
+background-image: url(./galleria/pizza-gourmet-zucca-big.webp);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 250px;
+color: white;
+font-weight: bolder;
+
+}
+
+.rest-name {
+    text-align: center;
+}
+
+.el-1{
+    display : inline ;
+    margin-right: 250px;
+}
+
+ul {
+    padding: 0;
+}
