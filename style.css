@@ -1,23 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
+body {
+    font-family: "Inconsolata", serif;
+    padding: 0 4px;
+}
+
+header {
+    position: sticky;
+}
+
 .rest-img{
-background-image: url(./galleria/pizza-gourmet-zucca-big.webp);
-background-position: center;
+background-image: url(./assets/pizza-gourmet-zucca-big.webp);
+background-position: center center;
 background-size: cover;
 background-repeat: no-repeat;
 height: 250px;
 color: white;
 font-weight: bolder;
+border-radius: 1rem;
+position: relative;
+
 
 }
+
+.rest-img div {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+}
+
 
 .rest-name {
-    text-align: center;
+    font-weight: bolder;
+    padding: 4px 8px;
 }
 
-.el-1{
-    display : inline ;
-    margin-right: 250px;
+.nav-link {
+    display: inline;
+    margin-right: 16px;
+    border-bottom: solid 0.5px blue;
 }
+
 
 ul {
     padding: 0;
 }
+
+a {
+    text-decoration: none;
+}
+

@@ -1,0 +1,14 @@
+figure {
+    margin: 0;
+    margin-bottom: 32px;
+    
+}
+
+
+img {
+    border-radius: 8px;
+    width: 400px;
+    display: block;
+    margin-bottom: 8px;
+}
+
